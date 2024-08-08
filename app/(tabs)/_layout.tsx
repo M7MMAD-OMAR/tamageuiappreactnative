@@ -8,16 +8,16 @@ export default function TabLayout() {
     return (
         <Tabs
             screenOptions={{
-                tabBarActiveTintColor: theme.purple10.val,
+                tabBarActiveTintColor: theme.red10.val,
             }}
         >
             <Tabs.Screen
-                name="index"
+                name="home"
                 options={{
-                    title: 'Tab One 11',
+                    title: 'Tab One',
                     tabBarIcon: ({color}) => <Atom color={color}/>,
                     headerRight: () => (
-                        <Link href="/modal" asChild>
+                        <Link href="/index" asChild>
                             <Button mr="$4" bg="$purple8" color="$purple12">
                                 Hello!
                             </Button>
@@ -28,7 +28,7 @@ export default function TabLayout() {
             <Tabs.Screen
                 name="two"
                 options={{
-                    title: 'Tab Two 2222',
+                    title: 'Tab Two',
                     tabBarIcon: ({color}) => <AudioWaveform color={color}/>,
                 }}
             />
