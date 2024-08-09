@@ -778,6 +778,10 @@
     --shadowColorHover: rgba(0, 0, 0, 0.085);
     --shadowColorPress: rgba(0, 0, 0, 0.04);
     --shadowColorFocus: rgba(0, 0, 0, 0.04);
+    --groupPrimary: var(--color-104);
+    --groupSecondary: var(--color-99);
+    --selectorPrimary: hsl(114, 68%, 36%);
+    --selectorSecondary: hsl(71, 61%, 82%);
 }
 
 @media (prefers-color-scheme: light) {
@@ -924,6 +928,10 @@
         --shadowColorHover: rgba(0, 0, 0, 0.085);
         --shadowColorPress: rgba(0, 0, 0, 0.04);
         --shadowColorFocus: rgba(0, 0, 0, 0.04);
+        --groupPrimary: var(--color-104);
+        --groupSecondary: var(--color-99);
+        --selectorPrimary: hsl(114, 68%, 36%);
+        --selectorSecondary: hsl(71, 61%, 82%);
     }
 }
 
@@ -1070,6 +1078,10 @@
     --shadowColorHover: rgba(0, 0, 0, 0.3);
     --shadowColorPress: rgba(0, 0, 0, 0.2);
     --shadowColorFocus: rgba(0, 0, 0, 0.2);
+    --groupPrimary: hsl(294, 91%, 43%);
+    --groupSecondary: var(--color-99);
+    --selectorPrimary: hsl(342, 68%, 36%);
+    --selectorSecondary: hsl(71, 61%, 82%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1216,6 +1228,10 @@
         --shadowColorHover: rgba(0, 0, 0, 0.3);
         --shadowColorPress: rgba(0, 0, 0, 0.2);
         --shadowColorFocus: rgba(0, 0, 0, 0.2);
+        --groupPrimary: hsl(294, 91%, 43%);
+        --groupSecondary: var(--color-99);
+        --selectorPrimary: hsl(342, 68%, 36%);
+        --selectorSecondary: hsl(71, 61%, 82%);
     }
 }
 

@@ -2,7 +2,6 @@
   "name": "tamageuiapp",
   "main": "expo-router/entry",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
     "upgrade:tamagui": "yarn up '*tamagui*'@latest '@tamagui/*'@latest",
     "upgrade:tamagui:canary": "yarn up '*tamagui*'@canary '@tamagui/*'@canary",
@@ -17,6 +16,7 @@
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.17",
+    "@tamagui/cli": "^1.108.2",
     "@tamagui/config": "^1.108.2",
     "@tamagui/lucide-icons": "^1.108.2",
     "@tamagui/toast": "^1.108.2",
