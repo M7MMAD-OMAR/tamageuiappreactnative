@@ -1,15 +1,18 @@
-import {H2, Paragraph, XStack, YStack} from 'tamagui'
-import {ToastControl} from 'app/CurrentToast'
+import {Button, Paragraph, XStack, YStack} from 'tamagui'
 import ConfigurationGuideLink from "../../components/app/ConfigurationGuideLink";
+import {Airplay} from "@tamagui/lucide-icons";
+import {ToastControl} from "../CurrentToast";
+
 
 export default function TabOneScreen() {
     return (
         <YStack f={1} ai="center" gap="$7" px="$10" pt="$5">
-            <H2>ss</H2>
+            <Button icon={Airplay} size={"$4"}>Go active</Button>
+            <Button theme="active" icon={Airplay} size={"$4"}>Go</Button>
 
             <ToastControl/>
 
-            <XStack ai="center" jc="center" fw="wrap" gap="$3" pos="absolute" b="$8">
+            <XStack ai="center" jc="center" fw="wrap" gap="$2" pos="absolute" b="$8">
                 <Paragraph fos="$5">Add</Paragraph>
 
                 <Paragraph fos="$5" px="$2" py="$1" col="$blue10" bg="$blue5" br="$3">

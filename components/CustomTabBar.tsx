@@ -4,10 +4,10 @@ import MyTabs from "../constants/MyTabs";
 
 const CustomTabBar = ({state, descriptors, navigation}) => {
     const theme = useTheme();
-    const backgroundFocusColor = theme.groupSecondary.val;
+    const backgroundFocusColor = theme.backgroundFocus.val;
     const backgroundColor = theme.background.val;
     const textColor = theme.color11.val;
-    const textFocusColor = theme.groupSecondary.val;
+    const textFocusColor = theme.colorFocus.val;
     const media = useMedia();
 
     return (

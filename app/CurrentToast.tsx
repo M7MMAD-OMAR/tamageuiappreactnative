@@ -13,8 +13,7 @@ export function CurrentToast() {
             viewportName={currentToast.viewportName}
             enterStyle={{opacity: 0, scale: 0.5, y: -25}}
             exitStyle={{opacity: 0, scale: 1, y: -20}}
-            y={isWeb ? '$12' : 0}
-            theme="purple"
+            y={isWeb ? '$1' : 0}
             br="$6"
             animation="quick"
         >
