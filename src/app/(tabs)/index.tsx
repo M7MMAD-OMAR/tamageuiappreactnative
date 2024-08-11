@@ -7,8 +7,8 @@ import {ToastControl} from "../CurrentToast";
 export default function TabOneScreen() {
     return (
         <YStack f={1} ai="center" gap="$7" px="$10" pt="$5">
-            <Button icon={Airplay} size={"$4"}>Go active</Button>
-            <Button theme="active" icon={Airplay} size={"$4"}>Go</Button>
+            <Button theme="active" icon={Airplay} size={"$4"}>Go active</Button>
+            <Button theme="yellow" icon={Airplay} size={"$4"}>Go</Button>
 
             <ToastControl/>
 

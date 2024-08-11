@@ -1,12 +1,12 @@
 import React, {memo} from 'react';
 import {AnimatePresence, Paragraph, Stack, useMedia, useTheme, XStack, YStack} from 'tamagui';
-import MyTabs from "../constants/MyTabs";
+import MyTabs from "../utils/MyTabs";
 
 const CustomTabBar = ({state, descriptors, navigation}) => {
     const theme = useTheme();
     const backgroundFocusColor = theme.backgroundFocus.val;
     const backgroundColor = theme.background.val;
-    const textColor = theme.color11.val;
+    const textColor = theme.color12.val;
     const textFocusColor = theme.colorFocus.val;
     const media = useMedia();
 

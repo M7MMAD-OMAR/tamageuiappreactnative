@@ -1,5 +1,6 @@
 import {Toast, useToastController, useToastState} from '@tamagui/toast'
 import {Button, H4, isWeb, XStack, YStack} from 'tamagui'
+import {toastTheme} from "../../tamagui.config";
 
 export function CurrentToast() {
     const currentToast = useToastState()
@@ -16,6 +17,7 @@ export function CurrentToast() {
             y={isWeb ? '$1' : 0}
             br="$6"
             animation="quick"
+            theme={toastTheme}
         >
             <YStack ai="center" p="$2" gap="$2">
                 <Toast.Title fow="bold">{currentToast.title}</Toast.Title>
