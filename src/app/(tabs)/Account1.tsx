@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react'
 import {Alert, StyleSheet, View} from 'react-native'
 import {Button, Input} from 'tamagui'
 import {Session} from '@supabase/supabase-js'
-import {supabase} from "../../utils/supabase";
+import {supabase} from "@utils/supabase";
 
 export default function Account1({session}: { session: Session }) {
     const [loading, setLoading] = useState(true)

@@ -1,7 +1,30 @@
 {
   "extends": "./tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "paths": {
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@constants/*": [
+        "src/constants/*"
+      ],
+      "@hooks/*": [
+        "src/hooks/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@app/*": [
+        "src/app/*"
+      ],
+      "@src/*": [
+        "src/*"
+      ]
+    }
   },
   "include": [
     "**/*.ts",

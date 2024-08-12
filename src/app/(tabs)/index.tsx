@@ -1,7 +1,7 @@
 import {Button, Paragraph, XStack, YStack} from 'tamagui'
-import ConfigurationGuideLink from "../../components/app/ConfigurationGuideLink";
+import ConfigurationGuideLink from "@components/app/ConfigurationGuideLink";
 import {Airplay} from "@tamagui/lucide-icons";
-import {ToastControl} from "../CurrentToast";
+import {ToastControl} from "@CurrentToast";
 
 
 export default function TabOneScreen() {
